@@ -19,6 +19,11 @@
           <input type="text" class="form-control" id="last-name" aria-describedby="last-name-help" placeholder="Last Name" name="last_name">
           <small id="last-name-help" class="form-text text-muted">Enter your last name.</small>
         </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="text" class="form-control" id="email" aria-describedby="email" placeholder="Email" name="email">
+          <small id="email-help" class="form-text text-muted">Enter your email.</small>
+        </div>
         <p class="lead mb-0">Would you rather have a cat or a dog?</p>
         <div class="form-check">
           <label class="form-check-label">
@@ -30,6 +35,12 @@
           <label class="form-check-label">
             <input class="form-check-input" type="radio" name="animals" id="dogs" value="dog">
             Dog
+          </label>
+        </div>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input class="form-check-input" type="radio" name="animals" id="Rabbit" value="rabbit">
+            Rabbit
           </label>
         </div>
         <button type="submit" class="btn btn-primary">Submit</button>
